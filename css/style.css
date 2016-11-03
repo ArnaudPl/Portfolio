@@ -1,0 +1,35 @@
+/* line 2, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+.mdl-navigation a.mdl-navigation__link:hover {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+/* line 7, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+.mdl-mini-footer__link-list li:hover a {
+  color: white;
+  text-decoration: underline; }
+
+/* line 12, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+.card-project.mdl-card {
+  background: white; }
+  /* line 15, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+  .card-project.mdl-card > .mdl-card__actions {
+    border-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center; }
+    /* line 21, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+    .card-project.mdl-card > .mdl-card__actions > .material-icons {
+      padding-right: 10px; }
+  /* line 26, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+  .card-project.mdl-card > .mdl-card__title {
+    align-items: flex-start; }
+    /* line 29, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+    .card-project.mdl-card > .mdl-card__title > h4 {
+      margin-top: 0; }
+
+/* line 38, C:/Users/arnaud.plumez/Documents/portfolio-mdl/css/style.scss */
+.card-project > .mdl-card__title,
+.card-project > .mdl-card__actions,
+.card-project > .mdl-card__actions > .mdl-button {
+  color: #000; }
+
+/*# sourceMappingURL=style.css.map */

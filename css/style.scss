@@ -1,0 +1,40 @@
+.mdl-navigation {
+    a.mdl-navigation__link:hover {
+        background-color: rgba(0, 0, 0, .2);
+    }
+}
+
+.mdl-mini-footer__link-list li:hover a {
+    color: white;
+    text-decoration: underline;
+}
+
+.card-project.mdl-card {
+    background: white;
+
+    > .mdl-card__actions {
+        border-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+
+        > .material-icons {
+            padding-right: 10px;
+        }
+    }
+
+    > .mdl-card__title {
+        align-items: flex-start;
+
+        > h4 {
+            margin-top: 0;
+        }
+    }
+
+}
+
+.card-project > .mdl-card__title,
+.card-project > .mdl-card__actions,
+.card-project > .mdl-card__actions > .mdl-button {
+  color: #000;
+}
